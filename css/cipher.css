@@ -1,0 +1,35 @@
+#encoded1 {
+  display: none;
+}
+
+#encoded2 {
+  display: none;
+}
+
+.clickable1 {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.clickable1:hover {
+  text-decoration: underline;
+}
+
+.clickable2 {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.clickable2:hover {
+  text-decoration: underline;
+}
+
+
+/*.clickable {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.clickable:hover {
+  text-decoration: underline;
+}*/
