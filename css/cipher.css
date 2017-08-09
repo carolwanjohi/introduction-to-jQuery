@@ -1,26 +1,22 @@
-#encoded1 {
+#encoded1, #encoded2, #hideContent1, #hideContent2 {
   display: none;
 }
 
-#encoded2 {
-  display: none;
-}
-
-.clickable1 {
+#showContent1 {
   cursor: pointer;
   color: #0088cc;
 }
 
-.clickable1:hover {
+#showContent1:hover {
   text-decoration: underline;
 }
 
-.clickable2 {
+#showContent2 {
   cursor: pointer;
   color: #0088cc;
 }
 
-.clickable2:hover {
+#showContent2:hover {
   text-decoration: underline;
 }
 

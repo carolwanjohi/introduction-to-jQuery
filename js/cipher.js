@@ -10,8 +10,8 @@ var function2 = function(newString) {
 
 /*Call function1 then function2 and concatenate newString2 to the userInput*/
 var function3 = function(userInput, newString2) {
-  var newString = function1(firstLetter, lastLetter);
-  var newString2 = function2(newString);
+  // var newString = function1(firstLetter, lastLetter);
+  // var newString2 = function2(newString);
   return userInput + newString2;
 };
 
@@ -25,47 +25,164 @@ var function5 = function(newString4) {
   return newString4.split("").reverse().join("");
 };
 
-/*Variable to store user input*/
-var userInput = prompt("Enter your word / sentence here: ");
-/*Test*/
+// /*Variable to store user input*/
+// var userInput = document.getElementById("original1").innerHTML;
+// /*Test*/
 // alert(userInput);
-
-/*Get the firstLetter and capitalise*/
-var firstLetter = userInput.charAt(0).toUpperCase();
-
-/*Get the lastLetter and capitalise*/
-var lastLetter = userInput.slice(-1).toUpperCase();
-
-/*Store the new string after funtion1 is done*/
-var newString = function1(firstLetter, lastLetter);
-/*Test*/
+//
+// /*Get the firstLetter and capitalise*/
+// var firstLetter = userInput.charAt(0).toUpperCase();
+//
+// /*Get the lastLetter and capitalise*/
+// var lastLetter = userInput.slice(-1).toUpperCase();
+//
+// /*Store the new string after funtion1 is done*/
+// var newString = function1(firstLetter, lastLetter);
+// /*Test*/
 // alert(newString);
-
-/*Store new string after function2 is done*/
-var newString2 = function2(newString);
-/*Test*/
+//
+// /*Store new string after function2 is done*/
+// var newString2 = function2(newString);
+// /*Test*/
 // alert(newString2);
-
-/*Store new string after function3 is done*/
-var newString3 = function3(userInput, newString2);
-/*Test*/
+//
+// /*Store new string after function3 is done*/
+// var newString3 = function3(userInput, newString2);
+// /*Test*/
 // alert(newString3);
-
-/*Count the number of letters in userInput and divide number by 2*/
-var meanNumber = parseInt((userInput.length / 2).toFixed());
-
-/*Letter at the meanNumber*/
-var charAtMeanNumber = userInput.charAt(meanNumber);
-
-/*Store new string after function4 is done*/
-var newString4 = function4(charAtMeanNumber, newString3);
-/*Test*/
+//
+// /*Count the number of letters in userInput and divide number by 2*/
+// var meanNumber = parseInt((userInput.length / 2).toFixed());
+//
+// /*Letter at the meanNumber*/
+// var charAtMeanNumber = userInput.charAt(meanNumber);
+//
+// /*Store new string after function4 is done*/
+// var newString4 = function4(charAtMeanNumber, newString3);
+// /*Test*/
 // alert(newString4);
+//
+// /*Store new string after function5 is done*/
+// var newString5 = function5(newString4);
+// /*Final Output*/
+// alert(newString5);
 
-/*Store new string after function5 is done*/
-var newString5 = function5(newString4);
-/*Final Output*/
-alert(newString5);
+/*Practising toggle()*/
+$(document).ready(function() {
+  /*The first paragraph*/
+  $("#showContent1").click(function() {
+    /*Variable to store user input*/
+    var userInput = document.getElementById("original1").innerHTML;
+    /*Test*/
+    // alert(userInput);
+
+    /*Get the firstLetter and capitalise*/
+    var firstLetter = userInput.charAt(0).toUpperCase();
+
+    /*Get the lastLetter and capitalise*/
+    var lastLetter = userInput.slice(-1).toUpperCase();
+
+    /*Store the new string after funtion1 is done*/
+    var newString = function1(firstLetter, lastLetter);
+    /*Test*/
+    // alert(newString);
+
+    /*Store new string after function2 is done*/
+    var newString2 = function2(newString);
+    /*Test*/
+    // alert(newString2);
+
+    /*Store new string after function3 is done*/
+    var newString3 = function3(userInput, newString2);
+    /*Test*/
+    // alert(newString3);
+
+    /*Count the number of letters in userInput and divide number by 2*/
+    var meanNumber = parseInt((userInput.length / 2).toFixed());
+
+    /*Letter at the meanNumber*/
+    var charAtMeanNumber = userInput.charAt(meanNumber);
+
+    /*Store new string after function4 is done*/
+    var newString4 = function4(charAtMeanNumber, newString3);
+    /*Test*/
+    // alert(newString4);
+
+    /*Store new string after function5 is done*/
+    var newString5 = function5(newString4);
+    /*Final Output*/
+    alert(newString5);
+  });
+  /*The second paragraph*/
+  $("#showContent2").click(function() {
+    /*Variable to store user input*/
+    var userInput = document.getElementById("original2").innerHTML;
+    /*Test*/
+    // alert(userInput);
+
+    /*Get the firstLetter and capitalise*/
+    var firstLetter = userInput.charAt(0).toUpperCase();
+
+    /*Get the lastLetter and capitalise*/
+    var lastLetter = userInput.slice(-1).toUpperCase();
+
+    /*Store the new string after funtion1 is done*/
+    var newString = function1(firstLetter, lastLetter);
+    /*Test*/
+    // alert(newString);
+
+    /*Store new string after function2 is done*/
+    var newString2 = function2(newString);
+    /*Test*/
+    // alert(newString2);
+
+    /*Store new string after function3 is done*/
+    var newString3 = function3(userInput, newString2);
+    /*Test*/
+    // alert(newString3);
+
+    /*Count the number of letters in userInput and divide number by 2*/
+    var meanNumber = parseInt((userInput.length / 2).toFixed());
+
+    /*Letter at the meanNumber*/
+    var charAtMeanNumber = userInput.charAt(meanNumber);
+
+    /*Store new string after function4 is done*/
+    var newString4 = function4(charAtMeanNumber, newString3);
+    /*Test*/
+    // alert(newString4);
+
+    /*Store new string after function5 is done*/
+    var newString5 = function5(newString4);
+    /*Final Output*/
+    alert(newString5);
+  });
+});
+// $("button#showContent1").click(function() {
+//   $("button#showContent1").toggle();
+//   $("button#hideContent1").toggle();
+//   $("#encoded1").toggle();
+//   $("#original1").toggle();
+// });
+// $("button#hideContent1").click(function() {
+//   $("button#hideContent1").toggle();
+//   $("button#showContent1").toggle();
+//   $("#encoded1").toggle();
+//   $("#original1").toggle();
+// });
+// $("button#showContent2").click(function() {
+//   $("button#showContent2").toggle();
+//   $("button#hideContent2").toggle();
+//   $("#encoded2").toggle();
+//   $("#original2").toggle();
+// });
+// $("button#hideContent2").click(function() {
+//   $("button#hideContent2").toggle();
+//   $("button#showContent2").toggle();;
+//   $("#encoded2").toggle();
+//   $("#original2").toggle();
+// });
+
 
 // /*Practising toggle()*/
 // $(document).ready(function() {
