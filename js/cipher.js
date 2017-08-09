@@ -66,3 +66,79 @@ var newString4 = function4(charAtMeanNumber, newString3);
 var newString5 = function5(newString4);
 /*Final Output*/
 alert(newString5);
+
+// /*Practising toggle()*/
+// $(document).ready(function() {
+//   $(".clickable1").click(function() {
+//     $("#encoded1").toggle();
+//     $("#original1").toggle();
+//   });
+//   $(".clickable2").click(function() {
+//     $("#encoded2").toggle();
+//     $("#original2").toggle();
+//   });
+// });
+
+// /*Practising fadeIn() and fadeOu()*/
+// $(document).ready(function() {
+//   $(".clickable1").click(function() {
+//     $("#original1").fadeOut();
+//     $("#encoded1").fadeIn();
+//     $("#encoded1").fadeOut();
+//     $("#original1").fadeIn();
+//   });
+//   $(".clickable2").click(function() {
+//     $("#encoded2").toggle();
+//     $("#original2").toggle();
+//   });
+// });
+
+// /*Practising fadeToggle()*/
+// $(document).ready(function() {
+//   $(".clickable1").click(function() {
+//     $("#encoded1").fadeToggle();
+//     $("#original1").fadeToggle();
+//   });
+//   $(".clickable2").click(function() {
+//     $("#encoded2").fadeToggle();
+//     $("#original2").fadeToggle();
+//   });
+// });
+
+// /*Practising slideDown()*/
+// $(document).ready(function() {
+//   $(".clickable1").click(function() {
+//     $("#encoded1").slideDown();
+//     $("#encoded1").fadeOut();
+//   });
+//   $(".clickable2").click(function() {
+//     $("#encoded2").fadeToggle();
+//     $("#original2").fadeToggle();
+//   });
+// });
+
+// /*Practising slideUo() and slideDown*/
+// $(document).ready(function() {
+//   $(".clickable1").click(function() {
+//     $("#encoded1").fadeToggle();
+//     $("#original1").fadeToggle();
+//   });
+//   $(".clickable2").click(function() {
+//     $("#original2").slideUp();
+//     $("#encoded2").slideDown();
+//     $("#encoded2").slideUp();
+//     $("#original2").slideDown();
+//   });
+// });
+
+// /*Practising slideToggle()*/
+// $(document).ready(function() {
+//   $(".clickable1").click(function() {
+//     $("#encoded1").slideToggle();
+//     $("#original1").slideToggle();
+//   });
+//   $(".clickable2").click(function() {
+//     $("#encoded2").slideToggle();
+//     $("#original2").slideToggle();
+//   });
+// });
