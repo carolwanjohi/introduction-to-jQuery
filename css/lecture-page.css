@@ -1,0 +1,26 @@
+p {
+  font-size: 20px
+}
+
+.purple-background {
+  background-color: #F5EEF8;
+  border: 3px solid #7D3C98;
+}
+
+.blue-background {
+  background-color: #EBF5FB;
+  border: 3px solid #2E86C1;
+}
+
+.red-background {
+  background-color: #F9EBEA;
+  border: 3px solid #7B241C;
+}
+
+.reset-background {
+  background-color: white;
+}
+
+.wrapper {
+  text-align: center;
+}
