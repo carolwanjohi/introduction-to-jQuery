@@ -1,0 +1,26 @@
+img {
+  float: right;
+}
+
+.black-background {
+  background-color: black;
+  color: white;
+}
+
+
+/*.jumbotron-black-background {
+  background-color: black;
+  color: white;
+}*/
+
+.white-background {
+  background-color: white;
+  color: black;
+}
+
+
+/*
+.jumbotron-original-background {
+  background-color: #85C1E9;
+  color: black;
+}*/
