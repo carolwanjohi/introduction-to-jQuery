@@ -1,11 +1,18 @@
+p {
+  font-size: 20px
+}
+
 .green-background {
-  background-color: green;
+  background-color: #E8F6F3;
+  border: 3px solid #17A589;
 }
 
 .yellow-background {
-  background-color: yellow;
+  background-color: #FEF9E7;
+  border: 3px solid #F1C40F;
 }
 
 .red-background {
-  background-color: red;
+  background-color: #F9EBEA;
+  border: 3px solid #7B241C;
 }
