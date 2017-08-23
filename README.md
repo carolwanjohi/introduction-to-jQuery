@@ -6,7 +6,7 @@
 
 ## Description
 
-This is a project folder for introduction to jQuery and practising to use it. This covers work done in Week 2 of [Moringa Prep](http://moringaschool.com/prep/).
+This is a project folder for introduction to jQuery and practising how to use it.
 
 ## Setup/Installation Requirements
 
@@ -18,7 +18,5 @@ No known bugs.
 
 ### License
 
-_GitHub MIT_
-
-Copyright (c) {2017} **[Carol Wanjohi](https://github.com/carolwanjohi)**
+MIT {2017} **[Carol Wanjohi](https://github.com/carolwanjohi)**
 
